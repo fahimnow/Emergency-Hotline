@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hind-madurai-font {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Navbar */
+
+.site-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #006747;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 60px 0 60px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.emoji {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.heart-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #41ff6b1a;
+    border-radius: 50px;
+    padding: 12px;
+    width: 80px;
+    height: 30px;
+
+}
+
+.coin-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #41ff6b1a;
+    border-radius: 50px;
+    padding: 12px;
+    width: 80px;
+    height: 30px;
+}
+
+.copy-btn {
+    border-radius: 50px;
+    padding: 12px 36px;
+    width: 127px;
+    height: 52px;
+    background-color: #00a63e;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+/* Banner */
+
+.banner-container {
+    background: linear-gradient(90deg, #013223 0%, #006747 49.99%, #013223 100%);
+}
+
+.banner-img {
+    width: 90px;
+    height: 90px;
+}
+
+.banner-items {
+    text-align: center;
+    margin: 0 auto;
+    padding: 21px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    /* text-align: center; */
+    color: #fff;
+    margin: unset;
+}
+
+.banner-des {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Cards features */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #f5fff6;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.card-item {
+    border-radius: 12px;
+    padding: 25px;
+    width: 270px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-font-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 133%;
+    color: #111;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.card-des {
+    margin: unset;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+
+.card-img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.card-img-bg {
+    border-radius: 16px;
+    width: 50px;
+    height: 50px;
+    background: #ffe3e2;
+    text-align: center;
+}
+
+.police-card-img-bg {
+    border-radius: 16px;
+    width: 50px;
+    height: 50px;
+    background: #dfefff;
+    text-align: center;
+}
+
+.card-copy-btn {
+    border: 1px solid #d4d6d5;
+    border-radius: 8px;
+    padding: 10px;
+    width: 182px;
+    height: 40px;
+    background: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5c5c5c;
+}
+
+.card-call-btn {
+    border-radius: 8px;
+    padding: 10px;
+    width: 182px;
+    height: 40px;
+    background: #00a63e;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+.card-number {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.card-category {
+    border-radius: 9999px;
+    padding: 10px;
+    margin-top: unset;
+    margin-bottom: 20px;
+    width: fit-content;
+    height: 20px;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.card-btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* History */
+.history-container {
+    border-radius: 12px;
+    padding: 24px;
+    width: 400px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+    background: #fff;
+
+}
+
+.history-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-history {
+    border-radius: 50px;
+    padding: 12px;
+    width: 80px;
+    height: 52px;
+    background: #00a63e;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+
+    .navbar-container,
+    /* .navbar-menu, */
+    .card-container,
+    .card-items-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        margin-top: 90px;
+    }
+
+    .banner-items {
+        padding: 10px;
+    }
+
+    .card-items-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+
+    .history-container {
+        width: 320px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .navbar-menu {
+        margin-top: 10px;
+    }
+
+}
