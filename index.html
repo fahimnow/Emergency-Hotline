@@ -21,14 +21,14 @@
 
             <div class="navbar-menu">
                 <div class="heart-logo">
-                    <h2>0</h2>
+                    <h2 id="heart-count">0</h2>
                     <img class="emoji" src="./assets/heart.png" alt="">
                 </div>
                 <div class="coin-logo">
-                    <h2>100</h2>
+                    <h2 id="coin-count">100</h2>
                     <img class="emoji" src="./assets/coin.png" alt="">
                 </div>
-                <button class="copy-btn"><span>0</span> Copy</button>
+                <button class="copy-btn"><span id="copy-count">0</span> Copy</button>
             </div>
         </div>
     </header>
@@ -51,7 +51,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/emergency.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">National Emergency Number</h4>
                         <p class="card-des">National Emergency</p>
@@ -69,7 +69,7 @@
                             <div class="police-card-img-bg">
                                 <img class="card-img" src="./assets/police.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Police Helpline Number</h4>
                         <p class="card-des">Police</p>
@@ -87,7 +87,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/fire-service.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Fire Service Number</h4>
                         <p class="card-des">National Emergency</p>
@@ -105,7 +105,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/ambulance.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Ambulance Service</h4>
                         <p class="card-des">Ambulance</p>
@@ -123,7 +123,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/emergency.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Women & Child Helpline</h4>
                         <p class="card-des">Women & Child Helpline</p>
@@ -141,7 +141,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/emergency.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Anti-Corruption Helpline</h4>
                         <p class="card-des">Anti-Corruption</p>
@@ -159,7 +159,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/emergency.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Electricity Helpline</h4>
                         <p class="card-des">Electricity Outage</p>
@@ -177,7 +177,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/emergency.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Brac Helpline</h4>
                         <p class="card-des">Brac</p>
@@ -195,7 +195,7 @@
                             <div class="card-img-bg">
                                 <img class="card-img" src="./assets/emergency.png" alt="">
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-btn"></i>
                         </div>
                         <h4 class="card-font-title">Bangladesh Railway Helpline </h4>
                         <p class="card-des">Bangladesh Railway</p>
@@ -213,14 +213,20 @@
                 <div class="history-banner">
                     <h4><i class="fa-regular fa-clock"></i> Call History</h4>
                     <button class="btn-history">Clear</button>
-
                 </div>
+                <!-- <div class="history-items">
+                    <div>
+                        <h4 class="history-title">Fire Service Number</h4>
+                        <p class="history-paragraph">999</p>
+                    </div>
+                    <div>
+                        <p>11:36:58 AM</p>
+                    </div>
+                </div> -->
             </div>
         </div>
     </main>
-    <footer>
-
-    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

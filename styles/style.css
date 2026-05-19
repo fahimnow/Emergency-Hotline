@@ -130,7 +130,7 @@ body {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 20px;
     background-color: #f5fff6;
     margin: 0 auto;
@@ -271,6 +271,32 @@ body {
     border: none;
     color: white;
     font-weight: 600;
+}
+
+.history-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background: #fafafa;
+    margin-top: 10px;
+}
+
+.history-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+    margin: unset;
+}
+
+.history-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    color: #5c5c5c;
+    margin: unset;
 }
 
 
