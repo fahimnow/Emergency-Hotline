@@ -151,6 +151,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin: 0 auto;
 }
 
 .card-banner {
@@ -249,7 +250,7 @@ body {
 .history-container {
     border-radius: 12px;
     padding: 24px;
-    width: 400px;
+    width: 350px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
     background: #fff;
 
