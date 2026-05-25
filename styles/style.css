@@ -130,18 +130,19 @@ body {
 
 .card-container {
     display: flex;
-    /* justify-content: space-between; */
-    gap: 20px;
+    justify-content: space-between;
+    gap: 50px;
     background-color: #f5fff6;
-    margin: 0 auto;
-    padding: 20px;
+    /* margin: 0 auto; */
+    padding: 50px;
+    max-width: 100%;
 }
 
 
 .card-item {
     border-radius: 12px;
     padding: 25px;
-    width: 270px;
+    width: fit-content;
     height: 300px;
     background: #fff;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
@@ -150,8 +151,9 @@ body {
 .card-items-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin: 0 auto;
+    gap: 40px;
+    /* margin: 0 auto; */
+    max-width: 100%;
 }
 
 .card-banner {
